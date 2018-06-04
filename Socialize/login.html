@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="nav-style.css">
+        <link rel="stylesheet" href="login-style.css">
+    </head>
+    <body>
+        <div class="nav-bar">
+            <div class="nav-one">
+                <img class="logo" src="logo.png">
+                <h5 class="title">Socialize</h5>
+            </div>
+            <div class="nav-two">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Blogs</a>
+                <a href="#" class="nav-link">Authors</a>
+                <a href="#" class="nav-link">About Us</a>
+            </div>
+            <div class="nav-three">
+                <form action="login.html" method="GET">
+                    <button class="login-btn" type="submit" value="submit" name="login-btn">Login</button>
+                </form>
+                <form action="signup.html" method="GET"> 
+                    <button class="signup-btn" type="submit" value="submit" name="signup-btn">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        <div class="login-box-main">
+            <div class="inner-login-box">
+                <div class="login-box-one">
+                    <h2 class="welcome-txt">Welcome Back!</h2>
+                </div>
+                <div class="login-box-two">
+                    <form name="login-form" action="dashboard.html" method="POST">
+                        <input type="text" name="email" class="input-txt" required>
+                        <br>
+                        <label for="email" class="label-txt">Email</label>
+                        <input type="password" name="password" class="input-txt" required>
+                        <br>
+                        <label for="password" class="label-txt">Password</label>
+                        <a class="forgot-btn" href="forgotpwd.html">Forgot Password?</a>
+                </div>
+                <div class="login-box-three">
+                        <button type="submit" name="signuptxt" class="sign-in-btn">Sign In</button>
+                        <h5 class="sign-up-txt">Don't have an account? <a class="signup-link" href="signup.html"><b>Sign Up</b></a></h5>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

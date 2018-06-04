@@ -1,0 +1,140 @@
+body
+{
+    font-family: Helvetica;
+    background-color: #232323;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav-bar
+{
+    background: #191919;
+    height: 86px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-one
+{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    bottom: 0;
+}
+
+.logo
+{
+    width: 68px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title
+{
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-family: 'Courier New';
+    color: white;
+}
+
+.nav-two
+{
+    width: 481px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.nav-link
+{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.nav-link:hover
+{
+    font-weight: 700;
+}
+
+.nav-bar:active
+{
+    font-weight: 700;
+    color: #0076FF;
+}
+
+.nav-three
+{
+    width: 220px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+}
+
+.login-btn, .signup-btn
+{
+    border-radius: 16px;
+    width: 102px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.login-btn:hover
+{
+    border: 2px white solid;
+    color: white;
+}
+
+.signup-btn:hover
+{
+    background-color: white;
+    color: #191919;
+}
+
+.login-btn
+{
+    border: 2px #0076FF solid;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #0076FF;
+}
+
+.signup-btn
+{
+    border: none;
+    background-color: #0076FF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
